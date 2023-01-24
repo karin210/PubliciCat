@@ -1,4 +1,4 @@
-
+import "../styles/sectionH1.css";
 
 function SectionH1(props){
     return(
