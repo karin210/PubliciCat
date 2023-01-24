@@ -2,3 +2,14 @@
     height: 200px;
     border: 2px solid;
 }
+
+.ActEmItems::after{
+    content: "Perifonéo";
+    display: block;
+    font-size: 2rem;
+    border: 2px solid black;
+    margin: 55px auto;
+    padding: 20px 10px;
+    width: 250px;
+    text-align: center;
+}
