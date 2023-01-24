@@ -1,8 +1,12 @@
 body {
   margin: 0;
+  height: auto;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+/* 
+  Colors palette
+    Background: black;
+    primary color: Off-white;
+    heighlite color: Orange;
+
+*/
