@@ -1,4 +1,5 @@
 import './App.css';
+import ActEmItems from './components/ActEmItems';
 import Header from './components/Header';
 import SectionH1 from './components/SectionH1';
 function App() {
@@ -10,10 +11,11 @@ function App() {
      <Header />
      <div className='slides'></div>
     {/* Activaciones Empresariales page */}
-     <div className='ActEmp'>
+     <div className='actEmp'>
       <SectionH1 
         text = "Activaciones Empresariales"
       />
+      <ActEmItems />
      </div>
     </div>
   );
