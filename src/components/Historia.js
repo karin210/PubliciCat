@@ -1,8 +1,8 @@
 import "../styles/historias.css";
 
-function Historia(){
+function Historia(props){
     return(
-        <div className="historia">
+        <div className="historia" id={props.id}>
 
         </div>
     );

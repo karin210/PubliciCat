@@ -86,11 +86,31 @@ function App() {
 
     {/* Historias page */}
     <div className="historias">
-    <SectionH1 
-        text = "Historias"
-        id = "historias-h1"
+      <SectionH1 
+          text = "Historias"
+          id = "historias-h1"
+        />
+      <Historia 
+        id= "historia1"
       />
-    <Historia />
+      <Historia 
+      id= "historia2"
+      />
+      <Historia 
+      id= "historia3"
+      />
+      <Historia 
+      id= "historia4"
+      />
+      <Historia 
+      id= "historia5"
+      />
+      <Historia 
+      id= "historia6"
+      />
+      <Historia 
+      id= "historia7"
+      />
     </div>
     </div>
   );
