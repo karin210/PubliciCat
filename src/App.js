@@ -118,12 +118,17 @@ function App() {
       <SectionH1 
         text = "Nosotros"
       />
-      <div className="nosotrosItemV">
-        <img className="nosotrosImgG" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
+      <div className="nosotrosItem">
+        <img className="nosotrosImg" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
         <span className="nosotrosImgTxt">Equipo de PubliciCat</span>
       </div>
       <p className="nosotrosLeyenda">En PubliCat somos un equipo con amplia experiencia en proyectos publicitarios. También contamos con servicio de renta de equipos de audio profesional y luces LED para eventos</p>
-      
+      <section id='teamMembers'>
+        <div className="nosotrosItem">
+          <img className="nosotrosTeamImg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"/>
+          <span className="membersInfo">Anna Abbey</span>
+        </div>
+      </section>
     </div>
     </div>
   );
