@@ -88,7 +88,7 @@ function App() {
     <div className="historias">
       <SectionH1 
           text = "Historias"
-          id = "historias-h1"
+          id = "historias-h"
         />
       <Historia 
         id= "historia1"
@@ -111,6 +111,14 @@ function App() {
       <Historia 
       id= "historia7"
       />
+    </div>
+
+    {/* Nosotros page */}
+    <div className="nosotros">
+      <SectionH1 
+          text = "Nosotros"
+        />
+      <img className="nosotrosImgG" src=""/>
     </div>
     </div>
   );
