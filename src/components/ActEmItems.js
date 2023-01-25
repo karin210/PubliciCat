@@ -1,8 +1,8 @@
 import "../styles/actEmItems.css";
 
-function ActEmItems(){
+function ActEmItems(props){
     return(
-        <div className="ActEmItems"></div>
+        <div id={props.id}></div>
     );
 }
 

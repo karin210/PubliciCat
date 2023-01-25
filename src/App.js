@@ -15,7 +15,13 @@ function App() {
       <SectionH1 
         text = "Activaciones Empresariales"
       />
-      <ActEmItems />
+      <ActEmItems 
+        id = "actEmItem1"
+      />
+      <ActEmItems
+      id = "actEmItem2"
+       />
+
      </div>
     </div>
   );
