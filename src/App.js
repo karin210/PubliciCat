@@ -21,7 +21,27 @@ function App() {
       <ActEmItems
       id = "actEmItem2"
        />
-
+       <ActEmItems
+      id = "actEmItem3"
+       />
+       <ActEmItems
+      id = "actEmItem4"
+       />
+       <ActEmItems
+      id = "actEmItem5"
+       />
+       <ActEmItems
+      id = "actEmItem6"
+       />
+       <ActEmItems
+      id = "actEmItem7"
+       />
+       <ActEmItems
+      id = "actEmItem8"
+       />
+       <ActEmItems
+      id = "actEmItem9"
+       />
      </div>
     </div>
   );
