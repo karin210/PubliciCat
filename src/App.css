@@ -297,19 +297,26 @@ left: 33px;
 color: white;
 }
 
-.RentEquipo{
-  height: 910px;
+.rentEquipo{
+  height: auto;
   width: 100%;
 }
 
-.RentEquipo-items{
+.rentEquipo-items{
   display: flex;
   flex-flow: row wrap;
   gap: 10px;
   justify-content: center;
 }
+
+.historias{
+  height: 900px;
+  
+}
 /* My phone's screen width is over 360px */
 
 /* 
 Bugs
-    -Change the slide image     */
+    -Change the slide image
+    -Shrink a bit the actEmItems's modals
+*/

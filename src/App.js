@@ -10,10 +10,10 @@ function App() {
     // home page
     <div className="App">
      <Header />
-     <div className='slides'></div>
+     <div className="slides"></div>
 
     {/* Activaciones Empresariales page */}
-     <div className='actEmp'>
+    <div className="actEmp">
       <SectionH1 
         text = "Activaciones Empresariales"
       />
@@ -44,14 +44,14 @@ function App() {
        <ActEmItems
       id = "actEmItem9"
        />
-     </div>
+    </div>
 
-     {/* Renta de audio page */}
-     <div className="RentEquipo">
-     <SectionH1 
+    {/* Renta de equipo page */}
+    <div className="rentEquipo">
+      <SectionH1 
         text = "Renta de equipo"
       />
-      <div className='RentEquipo-items'>
+      <div className="rentEquipo-items">
         <RenEquipoItems
         img = "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
         text = "DJ" 
@@ -82,6 +82,13 @@ function App() {
         />
       </div>
      </div>
+
+    {/* Historias page */}
+    <div className="historias">
+    <SectionH1 
+        text = "Historias"
+      />
+    </div>
     </div>
   );
 }
