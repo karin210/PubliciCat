@@ -11,6 +11,7 @@ function App() {
     <div className="App">
      <Header />
      <div className='slides'></div>
+
     {/* Activaciones Empresariales page */}
      <div className='actEmp'>
       <SectionH1 
@@ -44,14 +45,20 @@ function App() {
       id = "actEmItem9"
        />
      </div>
+
      {/* Renta de audio page */}
-     <div className="RentAudio">
+     <div className="RentEquipo">
      <SectionH1 
-        text = "Renta de audio"
+        text = "Renta de equipo"
       />
-      <RenEquipoItems
-      img = "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-      text = "DJ" />
+      <div className='RentEquipo-items'>
+        <RenEquipoItems
+        img = "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+        text = "DJ" />
+        <RenEquipoItems
+        img = "https://images.unsplash.com/photo-1604818659463-34304eab8e70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
+        text = "Iluminación LED" />
+      </div>
      </div>
     </div>
   );

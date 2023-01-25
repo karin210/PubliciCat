@@ -297,9 +297,16 @@ left: 33px;
 color: white;
 }
 
-.RentAudio{
+.RentEquipo{
   height: 910px;
   width: 100%;
+}
+
+.RentEquipo-items{
+  display: flex;
+  flex-flow: row wrap;
+  gap: 10px;
+  justify-content: center;
 }
 /* My phone's screen width is over 360px */
 

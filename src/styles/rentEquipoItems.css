@@ -3,11 +3,10 @@
     flex-direction: column;
     background-color: rgba(20, 20, 20, 95%);
     width: 150px;
-    height: 255px;
+    height: 262px;
     border-radius: 4px;
-    margin-left: 10px;
     margin-top: 30px;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     color: white;
     text-align: center;
 }
@@ -21,5 +20,7 @@
 }
 
 .rentaItem span{
-    margin-top: 14px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
