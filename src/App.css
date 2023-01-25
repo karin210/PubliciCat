@@ -357,10 +357,11 @@ color: white;
   background-size: cover;
 }
 
-.nosotros{
+.nosotrosItemV{
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .nosotrosImgG{
@@ -375,6 +376,18 @@ color: white;
   padding: 7px 0;
   text-align: center;
   color: ghostwhite;
+}
+
+.nosotrosLeyenda{
+  background-color: rgba(20, 20 , 20, 95%);
+  color: ghostwhite;
+  width: 80%;
+  padding: 20px 16px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  border-radius: 7px;
+  margin-bottom: 50px;
+
 }
 
 

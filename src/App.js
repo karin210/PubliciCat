@@ -116,10 +116,14 @@ function App() {
     {/* Nosotros page */}
     <div className="nosotros">
       <SectionH1 
-          text = "Nosotros"
-        />
-      <img className="nosotrosImgG" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
-      <span className="nosotrosImgTxt">Equipo de PubliCat</span>
+        text = "Nosotros"
+      />
+      <div className="nosotrosItemV">
+        <img className="nosotrosImgG" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
+        <span className="nosotrosImgTxt">Equipo de PubliciCat</span>
+      </div>
+      <p className="nosotrosLeyenda">En PubliCat somos un equipo con amplia experiencia en proyectos publicitarios. También contamos con servicio de renta de equipos de audio profesional y luces LED para eventos</p>
+      
     </div>
     </div>
   );
