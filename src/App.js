@@ -54,10 +54,32 @@ function App() {
       <div className='RentEquipo-items'>
         <RenEquipoItems
         img = "https://images.unsplash.com/photo-1516873240891-4bf014598ab4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
-        text = "DJ" />
+        text = "DJ" 
+        />
         <RenEquipoItems
         img = "https://images.unsplash.com/photo-1604818659463-34304eab8e70?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"
-        text = "Iluminación LED" />
+        text = "Iluminación LED" 
+        />
+        <RenEquipoItems
+        img = "https://images.unsplash.com/photo-1608538770329-65941f62f9f8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=710&q=80"
+        text = "Audio PRO" 
+        />
+        <RenEquipoItems
+        img = "https://http2.mlstatic.com/D_NQ_NP_992607-MLM45082624058_032021-V.jpg"
+        text = "Cabezas robóticas" 
+        />
+        <RenEquipoItems
+        img = "https://www.tufieston.com/dynamic/gallery/2143/zanqueros-s.l.p.-1.jpg"
+        text = "Zanqueros" 
+        />
+        <RenEquipoItems
+        img = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6BEqhLihCEJgLcHqTjFkmCdT2L0nJ6aCYOJwcBhWUJd42zQVKoe_USZKQOdeyqt3vqyA&usqp=CAU"
+        text = "Chisperos electrónicos" 
+        />
+        <RenEquipoItems
+        img = "https://entrefiestas.com/imagen/blog/souvenirs-para-tus-15-anos-2.jpg"
+        text = "Souvenirs" 
+        />
       </div>
      </div>
     </div>
