@@ -1,6 +1,7 @@
 import './App.css';
 import ActEmItems from './components/ActEmItems';
 import Header from './components/Header';
+import Historia from './components/Historia';
 import RenEquipoItems from './components/RenEquipoItems';
 import SectionH1 from './components/SectionH1';
 function App() {
@@ -87,7 +88,9 @@ function App() {
     <div className="historias">
     <SectionH1 
         text = "Historias"
+        id = "historias-h1"
       />
+    <Historia />
     </div>
     </div>
   );
