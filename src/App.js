@@ -43,6 +43,12 @@ function App() {
       id = "actEmItem9"
        />
      </div>
+     {/* Renta de audio page */}
+     <div className="RentAudio">
+     <SectionH1 
+        text = "Renta de audio"
+      />
+     </div>
     </div>
   );
 }
