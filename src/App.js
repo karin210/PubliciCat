@@ -145,11 +145,21 @@ function App() {
     </div>
 
     {/* Clientes page/ */}
-    <SectionH1 
-        text = "Clientes"
-      />
-    <div className='clientes'>
-      <img className="clientImg" src="https://static.vecteezy.com/system/resources/previews/007/978/618/original/pepsi-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" />
+    <div className="clientes">
+      <SectionH1 
+          text = "Clientes"
+          id= "clientes-h"
+        />
+      <div className="clientesLogos">
+        <img className="clientImg" src="https://static.vecteezy.com/system/resources/previews/007/978/618/original/pepsi-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" />
+        <img className="clientImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Logo_de_Cherdraui.svg/2560px-Logo_de_Cherdraui.svg.png" />
+        <img className="clientImg" src="https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg" />
+        <img className="clientImg" src="https://www.paredro.com/wp-content/uploads/2018/10/El-logotipo-de-Sanborns-%C2%BFSon-3-bu%CC%81hos-o-tecolotes.jpg" />
+        <img className="clientImg" src="https://cdn.milenio.com/uploads/media/2019/07/25/telcel-tambien-se-cayo-telcel.jpg" />
+        <img className="clientImg" src="https://static.wixstatic.com/media/34569a_db1e8cf5c6ad43668db22bc493632e76.jpg/v1/fill/w_549,h_344,al_c,lg_1,q_80,enc_auto/34569a_db1e8cf5c6ad43668db22bc493632e76.jpg" />
+        <img className="clientImg" src="https://static.wixstatic.com/media/cdb00b_cc343be0c3ab4b6d8fe22f39c7f5b5e3~mv2.png/v1/crop/x_188,y_113,w_789,h_744/fill/w_470,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo_laa-PERFORADO.png" />
+        <img className="clientImg" src="https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/5EY3TGRKWNC7BETJGJTSNJP5YI.png" />
+      </div>
     </div>
     </div>
   );

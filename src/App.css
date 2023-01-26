@@ -318,8 +318,9 @@ color: white;
   background-color: rgba(20, 20, 20, 97%);
 }
 
-#historias-h{
+#historias-h, #clientes-h{
   color: ghostwhite;
+  margin-bottom: 55px;
 }
 
 #historia1{
@@ -424,15 +425,21 @@ color: white;
 }
 
 .clientes{
-  display: flex;
-  flex-flow: row wrap;
-  height: 820px;
-  margin-left: 10px;
+  background-color: rgba(20, 20, 20, 97%);
 
 }
 
+.clientesLogos{
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  justify-content: center;
+  gap: 15px 10px;
+  padding-bottom: 60px;
+}
+
 .clientImg{
-  width: 30%;
+  width: 40%;
   height: 100px;
 }
 /* My phone's screen width is over 360px */
