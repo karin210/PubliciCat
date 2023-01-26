@@ -142,7 +142,12 @@ function App() {
           <span className="membersInfo">Carla López</span>
         </div>
       </section>
+      <h2>Contacto</h2>
+      <section>
+        
+      </section>
     </div>
+
 
     {/* Clientes page/ */}
     <div className="clientes">
