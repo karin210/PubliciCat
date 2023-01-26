@@ -392,7 +392,7 @@ color: white;
   padding: 20px 16px;
   font-size: 1.2rem;
   border-radius: 7px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
 
 }
 
@@ -401,6 +401,7 @@ color: white;
   flex-flow: row wrap;
   gap: 8px;
   justify-content: center;
+  margin-bottom: 20px;
 }
 
 .teamItems{
@@ -420,6 +421,19 @@ color: white;
   width: 158px;
   text-align: center;
   padding: 6px 0;
+}
+
+.clientes{
+  display: flex;
+  flex-flow: row wrap;
+  height: 820px;
+  margin-left: 10px;
+
+}
+
+.clientImg{
+  width: 30%;
+  height: 100px;
 }
 /* My phone's screen width is over 360px */
 

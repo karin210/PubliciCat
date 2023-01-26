@@ -143,6 +143,14 @@ function App() {
         </div>
       </section>
     </div>
+
+    {/* Clientes page/ */}
+    <SectionH1 
+        text = "Clientes"
+      />
+    <div className='clientes'>
+      <img className="clientImg" src="https://static.vecteezy.com/system/resources/previews/007/978/618/original/pepsi-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" />
+    </div>
     </div>
   );
 }
