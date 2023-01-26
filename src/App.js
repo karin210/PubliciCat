@@ -143,11 +143,23 @@ function App() {
         </div>
       </section>
       <h2>Contacto</h2>
-      <section>
+      <section className="contacto">
+        <div className="contactoKeyVal">
+          <div className="contactoKeyOdd">e-mail:</div>
+          <div className="contactoValOdd">user@domain.com</div>
+        </div>
+        <div className="contactoKeyVal">
+          <div className="contactoKeyEven">Whatsapp:</div>
+          <div className="contactoValEven">335-342-8074</div>
+        </div>
+        <div className="contactoKeyVal">
+          <div className="contactoKeyEven">Tel:</div>
+          <div className="contactoValEven">335-342-8074</div>
+        </div>
         
+
       </section>
     </div>
-
 
     {/* Clientes page/ */}
     <div className="clientes">
