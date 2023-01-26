@@ -156,8 +156,10 @@ function App() {
           <div className="contactoKeyEven">Tel:</div>
           <div className="contactoValEven">335-342-8074</div>
         </div>
-        
-
+        <div id="ubicacion">
+          <div id="ubicacionTxt">Dirección</div>
+          <div></div>
+        </div>
       </section>
     </div>
 
