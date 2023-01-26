@@ -17,6 +17,7 @@ function App() {
     <div className="actEmp">
       <SectionH1 
         text = "Activaciones Empresariales"
+        id = "actEmp-h"
       />
       <ActEmItems 
         id = "actEmItem1"

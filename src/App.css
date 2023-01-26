@@ -1,8 +1,19 @@
 .slides{
-    background-image: url(https://images.unsplash.com/photo-1590845947698-8924d7409b56?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mjh8fG1hcmtldGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-image: url(https://www.maquinasdeideas.com/wp-content/uploads/2020/09/2-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 135% 100%;
     width: 100%;
     height: 941px;
     border-bottom: 1px solid darkgray;
+}
+
+.slides::before{
+  content: "";
+  background-color: rgba(20, 20 , 20, 40%);
+  width: 100%;
+  height: 941px;
+  position: absolute;
+
 }
 
 .slides::after{
@@ -24,7 +35,12 @@ h1{
 }
 
 .actEmp{
+  background-color: rgba(20, 20, 20, 97%);
   height: auto;
+}
+
+#actEmp-h{
+  color: ghostwhite;
 }
 
 #actEmItem1{
