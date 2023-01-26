@@ -146,22 +146,41 @@ function App() {
       <h2>Contacto</h2>
       <section className="contacto">
         <div className="contactoKeyVal">
-          <div className="contactoKeyOdd">e-mail:</div>
-          <div className="contactoValOdd">user@domain.com</div>
+          <div className="contactoKey">e-mail:</div>
+          <div className="contactoVal">user@domain.com</div>
         </div>
         <div className="contactoKeyVal">
-          <div className="contactoKeyEven">Whatsapp:</div>
-          <div className="contactoValEven">335-342-8074</div>
+          <div className="contactoKey">Whatsapp:</div>
+          <div className="contactoVal">335-342-8074</div>
         </div>
         <div className="contactoKeyVal">
-          <div className="contactoKeyEven">Tel:</div>
-          <div className="contactoValEven">335-342-8074</div>
-        </div>
-        <div id="ubicacion">
-          <div id="ubicacionTxt">Dirección</div>
-          <div></div>
+          <div className="contactoKey">Tel:</div>
+          <div className="contactoVal">335-342-8074</div>
         </div>
       </section>
+      <h2>Dirección</h2>
+      <section id="ubicacion">
+        <div className="ubicacionKeyVal">
+          <div className="ubicacionKey">Ciudad:</div>
+          <div className="ubicacionVal">Morelia, Mich.</div>
+        </div>
+        <div className="ubicacionKeyVal">
+          <div className="ubicacionKey">Colonia:</div>
+          <div className="ubicacionVal">Nueva Valladolid</div>
+        </div>
+        <div className="ubicacionKeyVal">
+          <div className="ubicacionKey">Calle:</div>
+          <div className="ubicacionVal">C. Gaspar de Villadiego #117</div>
+        </div>
+      </section>
+      <iframe id="ubicacionMap" 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60099.371156965004!2d-101.24114339215568!3d19.703651853022688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0ba2b29da7e3%3A0x4016978679c8620!2sMorelia%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1674764716878!5m2!1ses-419!2smx" 
+      width="80%" 
+      height="200px%" 
+      style={{border: "0"}} 
+      allowfullscreen="" 
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
     </div>
 
     {/* Clientes page/ */}

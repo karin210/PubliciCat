@@ -4,7 +4,7 @@
     background-size: 135% 100%;
     width: 100%;
     height: 941px;
-    border-bottom: 1px solid darkgray;
+    border-bottom: 1px solid black;
 }
 
 .slides::before{
@@ -378,6 +378,7 @@ color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  border-bottom: 1px solid black;
 }
 
 .nosotrosItem{
@@ -441,18 +442,18 @@ color: white;
   padding: 6px 0;
 }
 
-.contacto{
+.contacto, #ubicacion{
   width: 100%;
 }
 
-.contactoKeyVal{
+.contactoKeyVal, .ubicacionKeyVal{
   display: flex;
   justify-content: center;
   width: 100%;
   margin-bottom: 15px;
 }
 
-.contactoKeyOdd{
+.contactoKey, .ubicacionKey{
   display: inline-block;
   width: 40%;  
   color: rgba(20, 20 , 20, 95%);
@@ -461,33 +462,12 @@ color: white;
   text-align: end;
 }
 
-.contactoValOdd{
+.contactoVal, .ubicacionVal{
   display: inline-block;
   width: 43%;  
   color: rgba(20, 20 , 20, 95%);
   font-size: 1rem;
   padding: 10px 10px;
-}
-
-.contactoKeyEven{
-  display: inline-block;
-  width: 40%;  
-  color: rgba(20, 20 , 20, 95%);
-  font-size: 1rem;
-  padding: 10px 10px;  
-  text-align: end;
-}
-
-.contactoValEven{
-  display: inline-block;
-  width: 43%;  
-  color: rgba(20, 20 , 20, 95%);
-  font-size: 1rem;
-  padding: 10px 10px;
-}
-
-#ubicacion{
-  display: flex;
 }
 
 #ubicacionTxt{
@@ -498,8 +478,13 @@ color: white;
   margin-left: 10px;
 }
 
+#ubicacionMap{
+  margin-bottom: 20px;
+}
+
 .clientes{
   background-color: rgba(20, 20, 20, 95%);
+  border-bottom: 1px solid black;
 
 }
 
