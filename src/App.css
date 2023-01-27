@@ -3,7 +3,6 @@ h1{
 }
 
 .actEmp{
-  background-color: rgba(20, 20, 20, 97%);
   height: auto;
 }
 
@@ -13,19 +12,15 @@ h1{
 }
 
 #actEmItem1{
-  height: 200px;
   background-image: url(https://irp.cdn-website.com/40b97842/MOBILE/jpg/18605.jpg);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem1::before{
-content: "";
-background-color: rgba(20, 20 , 20, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-
+  content: "";
+  background-color: rgba(20, 20, 20, 60%);
+  position: absolute;
+  width: 99.5%;
+  height: 200px;
 }
 
 #actEmItem1::after{
@@ -43,10 +38,7 @@ color: white;
 }
 
 #actEmItem2{
-  height: 200px;
   background-image: url(https://images.unsplash.com/photo-1597183739841-5ca26ab0a604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem2::before{
@@ -73,10 +65,7 @@ color: white;
 }
 
 #actEmItem3{
-  height: 200px;
   background-image: url(https://i.ytimg.com/vi/wcAjPLDsnmA/maxresdefault.jpg);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem3::before{
@@ -103,10 +92,7 @@ color: white;
 }
 
 #actEmItem4{
-  height: 200px;
   background-image: url(https://edecanesvip.mx/wp-content/uploads/2022/06/image-3.png);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem4::before{
@@ -132,10 +118,7 @@ color: white;
 }
 
 #actEmItem5{
-  height: 200px;
   background-image: url(https://img77.uenicdn.com/image/upload/v1569397330/business/6190dcf5-72fe-43de-8776-278798411538.jpg);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem5::before{
@@ -162,10 +145,7 @@ color: white;
 }
 
 #actEmItem6{
-  height: 200px;
   background-image: url(https://bolsadetrabajo.vip/wp-content/uploads/2021/09/captadores-unicef_edited-1-265x198.jpg);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem6::before{
@@ -192,10 +172,7 @@ color: white;
 }
 
 #actEmItem7{
-  height: 200px;
   background-image: url(https://joaquinelvolantero.com/wp-content/uploads/2021/08/servicio-de-volanteo-en-lima.jpg);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem7::before{
@@ -222,10 +199,7 @@ color: white;
 }
 
 #actEmItem8{
-  height: 200px;
   background-image: url(https://md-max.com/wp-content/gallery/publiandantes/IMG_20180309_095210.jpg);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem8::before{
@@ -253,10 +227,7 @@ color: white;
 
 
 #actEmItem9{
-  height: 200px;
   background-image: url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
-  background-size: cover;
-  border: 2px solid;
 }
 
 #actEmItem9::before{

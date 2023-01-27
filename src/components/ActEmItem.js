@@ -2,7 +2,7 @@ import "../styles/actEmItem.css";
 
 function ActEmItems(props){
     return(
-        <div id={props.id}></div>
+        <div className="actEmItem" id={props.id}></div>
     );
 }
 

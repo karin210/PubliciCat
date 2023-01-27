@@ -18,7 +18,7 @@ function App() {
         id = "actEmp-h"
       />
       <ActEmItem 
-        id = "actEmItem1"
+      id = "actEmItem1"        
       />
       <ActEmItem
       id = "actEmItem2"
@@ -80,7 +80,7 @@ function App() {
         text = "Souvenirs" 
         />
       </div>
-     </div>
+    </div>
     {/* Historias page */}
     <div className="historias">
       <SectionH1 
