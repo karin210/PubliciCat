@@ -4,10 +4,13 @@ h1{
 
 .actEmp{
   height: auto;
+  background-color: rgba(20, 20, 20, 97%);
 }
 
 #actEmp-h{
   color: ghostwhite;
+  margin-bottom: 55px;
+
   
 }
 
