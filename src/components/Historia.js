@@ -1,4 +1,4 @@
-import "../styles/historias.css";
+import "../styles/historia.css";
 
 function Historia(props){
     return(

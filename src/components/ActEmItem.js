@@ -1,4 +1,4 @@
-import "../styles/actEmItems.css";
+import "../styles/actEmItem.css";
 
 function ActEmItems(props){
     return(

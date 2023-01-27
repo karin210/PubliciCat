@@ -1,6 +1,6 @@
-import "../styles/rentEquipoItems.css";
+import "../styles/rentEquipoItem.css";
 
-function RenEquipoItems(props){
+function RenEquipoItem(props){
     return(
         <div className="rentaItem">
             <img src={props.img}/>
@@ -9,4 +9,4 @@ function RenEquipoItems(props){
     );
 }
 
-export default RenEquipoItems;
+export default RenEquipoItem;
