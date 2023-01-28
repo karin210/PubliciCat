@@ -24,17 +24,7 @@ h1{
 }
 
 #actEmItem1::after{
-content: "Perifonéo";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
+
 }
 
 #actEmItem2{
@@ -50,20 +40,6 @@ height: 200px;
 
 }
 
-#actEmItem2::after{
-content: "Renta de bocinas";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
-}
-
 #actEmItem3{
   background-image: url(https://i.ytimg.com/vi/wcAjPLDsnmA/maxresdefault.jpg);
 }
@@ -77,20 +53,6 @@ height: 200px;
 
 }
 
-#actEmItem3::after{
-content: "Animadores/as";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
-}
-
 #actEmItem4{
   background-image: url(https://edecanesvip.mx/wp-content/uploads/2022/06/image-3.png);
 }
@@ -101,20 +63,6 @@ background-color: rgba(31, 44 , 96, 60%);
 position: absolute;
 width: 99.5%;
 height: 200px;
-}
-
-#actEmItem4::after{
-content: "Edecanes (AAA y AA)";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
 }
 
 #actEmItem5{
@@ -130,20 +78,6 @@ height: 200px;
 
 }
 
-#actEmItem5::after{
-content: "Zanqueros";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
-}
-
 #actEmItem6{
   background-image: url(https://bolsadetrabajo.vip/wp-content/uploads/2021/09/captadores-unicef_edited-1-265x198.jpg);
 }
@@ -155,20 +89,6 @@ position: absolute;
 width: 99.5%;
 height: 200px;
 
-}
-
-#actEmItem6::after{
-content: "Promovendedores";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
 }
 
 #actEmItem7{
@@ -184,20 +104,6 @@ height: 200px;
 
 }
 
-#actEmItem7::after{
-content: "Volanteros";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
-}
-
 #actEmItem8{
   background-image: url(https://md-max.com/wp-content/gallery/publiandantes/IMG_20180309_095210.jpg);
 }
@@ -211,21 +117,6 @@ height: 200px;
 
 }
 
-#actEmItem8::after{
-content: "Publiandantes";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
-}
-
-
 #actEmItem9{
   background-image: url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
 }
@@ -237,20 +128,6 @@ position: absolute;
 width: 99.5%;
 height: 200px;
 
-}
-
-#actEmItem9::after{
-content: "Marketing de redes sociales";
-display: block;
-font-size: 2rem;
-border: 2px solid white;
-margin: 55px auto;
-padding: 20px 10px;
-width: 250px;
-text-align: center;
-position: absolute;
-left: 33px;
-color: white;
 }
 
 .rentEquipo{
