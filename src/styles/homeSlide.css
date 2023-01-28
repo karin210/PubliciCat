@@ -13,19 +13,18 @@
   width: 100%;
   height: 941px;
   position: absolute;
-
 }
 
-.slides::after{
-    content: "Activaciones Empresariales";
+.slides span{
     display: block;
     color: whitesmoke;
     font-size: 2rem;
     text-align: center;
     position: relative;
-    top: 33%;
-    left: 34px;
+    top: 38%;
+    padding: 17% 7%;
+    left: 0;
     border: 5px solid;
     width: 70%;
-    padding: 100px 10px;
+    margin: 0 auto;
 }

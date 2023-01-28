@@ -86,8 +86,8 @@ function App() {
     {/* Historias page */}
     <div className="historias">
       <SectionH1 
-          text = "Historias"
-          id = "historias-h"
+        text = "Historias"
+        id = "historias-h"
         />
       <Historia 
         id= "historia1"
@@ -98,7 +98,7 @@ function App() {
       <Historia 
       id= "historia3"
       />
-      <Historia 
+      <Historia
       id= "historia4"
       />
       <Historia 
