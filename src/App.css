@@ -13,6 +13,8 @@ h1{
 
 #actEmItem1{
   background-image: url(https://irp.cdn-website.com/40b97842/MOBILE/jpg/18605.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 #actEmItem1::before{
@@ -25,6 +27,8 @@ h1{
 
 #actEmItem2{
   background-image: url(https://images.unsplash.com/photo-1597183739841-5ca26ab0a604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
+  background-size: cover;
+  background-position: center;
 }
 
 #actEmItem2::before{
@@ -38,6 +42,8 @@ height: 200px;
 
 #actEmItem3{
   background-image: url(https://i.ytimg.com/vi/wcAjPLDsnmA/maxresdefault.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 #actEmItem3::before{
@@ -51,6 +57,8 @@ height: 200px;
 
 #actEmItem4{
   background-image: url(https://edecanesvip.mx/wp-content/uploads/2022/06/image-3.png);
+  background-size: cover;
+  background-position: top;
 }
 
 #actEmItem4::before{
@@ -63,6 +71,8 @@ height: 200px;
 
 #actEmItem5{
   background-image: url(https://img77.uenicdn.com/image/upload/v1569397330/business/6190dcf5-72fe-43de-8776-278798411538.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #actEmItem5::before{
@@ -76,6 +86,8 @@ height: 200px;
 
 #actEmItem6{
   background-image: url(https://bolsadetrabajo.vip/wp-content/uploads/2021/09/captadores-unicef_edited-1-265x198.jpg);
+  background-size: cover;
+  background-position: top;
 }
 
 #actEmItem6::before{
@@ -89,6 +101,8 @@ height: 200px;
 
 #actEmItem7{
   background-image: url(https://joaquinelvolantero.com/wp-content/uploads/2021/08/servicio-de-volanteo-en-lima.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #actEmItem7::before{
@@ -102,6 +116,8 @@ height: 200px;
 
 #actEmItem8{
   background-image: url(https://md-max.com/wp-content/gallery/publiandantes/IMG_20180309_095210.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 #actEmItem8::before{
@@ -115,6 +131,8 @@ height: 200px;
 
 #actEmItem9{
   background-image: url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+  background-size: cover;
+  background-position: center;
 }
 
 #actEmItem9::before{
