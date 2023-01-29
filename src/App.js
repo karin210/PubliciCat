@@ -133,22 +133,22 @@ function App() {
       <p className="nosotrosLeyenda">En PubliciCat somos un equipo con amplia experiencia en proyectos publicitarios. También contamos con servicio de renta de equipos de audio profesional y luces LED para eventos</p>
       <h2>Team</h2>
       <section id='teamMembers'>
-        <div className="teamItems">
-          <img className="nosotrosTeamImg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"/>
-          <span className="membersInfo">Anna Abbey</span>
-        </div>
-        <div className="teamItems">
-          <img className="nosotrosTeamImg" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"/>
-          <span className="membersInfo">Andy Keiffer</span>
-        </div>
-        <div className="teamItems">
-          <img className="nosotrosTeamImg" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"/>
-          <span className="membersInfo">Cindy Allin</span>
-        </div>
-        <div className="teamItems">
-          <img className="nosotrosTeamImg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80"/>
-          <span className="membersInfo">Carla López</span>
-        </div>
+        <figure className="teamFigure">
+          <img className="teamImg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" />
+          <figcaption className="teamImgTxt">Anna Abbey</figcaption>
+        </figure>
+        <figure className="teamFigure">
+          <img className="teamImg" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <figcaption className="teamImgTxt">Andy Keiffer</figcaption>
+        </figure>
+        <figure className="teamFigure">
+          <img className="teamImg" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <figcaption className="teamImgTxt">Cindy Allin</figcaption>
+        </figure>
+        <figure className="teamFigure">
+          <img className="teamImg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <figcaption className="teamImgTxt">Carla López</figcaption>
+        </figure>
       </section>
       <h2>Contacto</h2>
       <section className="contacto">
