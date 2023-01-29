@@ -269,10 +269,8 @@ height: 200px;
 }
 
 .contactoKeyVal, .ubicacionKeyVal{
-  display: flex;
-  justify-content: center;
-  width: 100%;
   margin-bottom: 15px;
+  padding: 0
 }
 
 .contactoKey, .ubicacionKey{

@@ -152,33 +152,33 @@ function App() {
       </section>
       <h2>Contacto</h2>
       <section className="contacto">
-        <div className="contactoKeyVal">
-          <div className="contactoKey">e-mail:</div>
-          <div className="contactoVal">user@domain.com</div>
-        </div>
-        <div className="contactoKeyVal">
-          <div className="contactoKey">Whatsapp:</div>
-          <div className="contactoVal">335-342-8074</div>
-        </div>
-        <div className="contactoKeyVal">
-          <div className="contactoKey">Tel:</div>
-          <div className="contactoVal">335-342-8074</div>
-        </div>
+        <ul className="contactoKeyVal">
+          <li className="contactoKey">e-mail:</li>
+          <li className="contactoVal">user@domain.com</li>
+        </ul>
+        <ul className="contactoKeyVal">
+          <li className="contactoKey">Whatsapp:</li>
+          <li className="contactoVal">335-342-8074</li>
+        </ul>
+        <ul className="contactoKeyVal">
+          <li className="contactoKey">Tel:</li>
+          <li className="contactoVal">335-342-8074</li>
+        </ul>
       </section>
       <h2>Dirección</h2>
       <section id="ubicacion">
-        <div className="ubicacionKeyVal">
-          <div className="ubicacionKey">Ciudad:</div>
-          <div className="ubicacionVal">Morelia, Mich.</div>
-        </div>
-        <div className="ubicacionKeyVal">
-          <div className="ubicacionKey">Colonia:</div>
-          <div className="ubicacionVal">Nueva Valladolid</div>
-        </div>
-        <div className="ubicacionKeyVal">
-          <div className="ubicacionKey">Calle:</div>
-          <div className="ubicacionVal">C. Gaspar de Villadiego #117</div>
-        </div>
+        <ul className="ubicacionKeyVal">
+          <li className="ubicacionKey">Ciudad:</li>
+          <li className="ubicacionVal">Morelia, Mich.</li>
+        </ul>
+        <ul className="ubicacionKeyVal">
+          <li className="ubicacionKey">Colonia:</li>
+          <li className="ubicacionVal">Nueva Valladolid</li>
+        </ul>
+        <ul className="ubicacionKeyVal">
+          <li className="ubicacionKey">Calle:</li>
+          <li className="ubicacionVal">C. Gaspar de Villadiego #117</li>
+        </ul>
       </section>
       <a href="https://www.google.com/maps/place/C.+Gaspar+de+Villadiego+117,+Nueva+Valladolid,+58190+Morelia,+Mich./@19.6936108,-101.2159938,17z/data=!4m6!3m5!1s0x842d0e83040c2611:0xd09c3970fa153acc!8m2!3d19.6951866!4d-101.2159616!16s%2Fg%2F11c57d57yg"><img id="locationMap" alt="map" src={locationMap} /></a>
     </div>
