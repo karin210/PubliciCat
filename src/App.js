@@ -126,10 +126,10 @@ function App() {
       <SectionH1 
         text = "Nosotros"
       />
-      <div className="nosotrosItem">
-        <img className="nosotrosImg" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
-        <span className="nosotrosImgTxt">Equipo de PubliciCat</span>
-      </div>
+      <figure className="nosotrosFigure">
+      <img className="nosotrosImg" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
+        <figcaption className="nosotrosImgTxt">Equipo de PubliciCat</figcaption>
+      </figure>
       <p className="nosotrosLeyenda">En PubliciCat somos un equipo con amplia experiencia en proyectos publicitarios. También contamos con servicio de renta de equipos de audio profesional y luces LED para eventos</p>
       <h2>Team</h2>
       <section id='teamMembers'>
