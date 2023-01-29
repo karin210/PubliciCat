@@ -1,7 +1,8 @@
 .slides{
     background-image: url(https://www.maquinasdeideas.com/wp-content/uploads/2020/09/2-3.jpg);
     background-repeat: no-repeat;
-    background-size: 135% 100%;
+    background-size: cover;
+    background-position: left;
     width: 100%;
     height: 941px;
     border-bottom: 1px solid black;
