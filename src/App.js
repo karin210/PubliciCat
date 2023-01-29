@@ -5,6 +5,7 @@ import Header from './components/Header';
 import Historia from './components/Historia';
 import RenEquipoItem from './components/RenEquipoItem';
 import SectionH1 from './components/SectionH1';
+import locationMap from './images/locationMap.png';
 function App() {
   return (
     // Home page
@@ -179,14 +180,7 @@ function App() {
           <div className="ubicacionVal">C. Gaspar de Villadiego #117</div>
         </div>
       </section>
-      <iframe id="ubicacionMap" 
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60099.371156965004!2d-101.24114339215568!3d19.703651853022688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842d0ba2b29da7e3%3A0x4016978679c8620!2sMorelia%2C%20Mich.!5e0!3m2!1ses-419!2smx!4v1674764716878!5m2!1ses-419!2smx" 
-      width="80%" 
-      height="200px%" 
-      style={{border: "0"}} 
-      allowfullscreen="" 
-      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-      </iframe>
+      <a href="https://www.google.com/maps/place/C.+Gaspar+de+Villadiego+117,+Nueva+Valladolid,+58190+Morelia,+Mich./@19.6936108,-101.2159938,17z/data=!4m6!3m5!1s0x842d0e83040c2611:0xd09c3970fa153acc!8m2!3d19.6951866!4d-101.2159616!16s%2Fg%2F11c57d57yg"><img id="locationMap" alt="map" src={locationMap} /></a>
     </div>
     {/* Clientes page/ */}
     <div className="clientes">

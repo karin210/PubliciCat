@@ -292,15 +292,9 @@ height: 200px;
   padding: 10px 10px;
 }
 
-#ubicacionTxt{
-  border: 1px solid;
-  background-color: ghostwhite;
-  font-size: 1.5rem;
-  padding: 36px 36px;
-  margin-left: 10px;
-}
-
-#ubicacionMap{
+#locationMap{
+  width: 300px;
+  height: 220px;
   margin-bottom: 20px;
 }
 
