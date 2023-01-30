@@ -1,8 +1,7 @@
 .actEmItem {
   height: 200px;
-  max-height: 300px;
   width: 100%;
-  max-width: 550px;
+  max-width: 400px;
   border: 2px solid;
   display: flex;
   align-items: center;
