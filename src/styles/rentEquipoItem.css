@@ -31,16 +31,17 @@
 @media (min-width: 900px) {
  
 .rentaItem{
-    width: 280px;
-    height: 450px;
+    width: 210px;
+    height: 350px;
 }
 
 .rentaItem img{
-    height: 300px;
+    height: 220px;
 }
 
 .rentaItem span{
-    font-size: 1.8rem
+    font-size: 1.4rem;
+    margin-top: 40px;
 }
 
 }
