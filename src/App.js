@@ -8,7 +8,7 @@ import SectionH1 from './components/SectionH1';
 import locationMap from './images/locationMap.png';
 function App() {
   return (
-    // Home page
+    // Home page!!!!!!!!
     <div className="App">
       <Header />
       <HomeSlide />
