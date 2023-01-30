@@ -25,4 +25,22 @@
     margin: 0 auto;
     margin-top: 20px;
     margin-bottom: 10px;
+    font-family: sans-serif;
+}
+
+@media (min-width: 900px) {
+ 
+.rentaItem{
+    width: 280px;
+    height: 450px;
+}
+
+.rentaItem img{
+    height: 300px;
+}
+
+.rentaItem span{
+    font-size: 1.8rem
+}
+
 }
