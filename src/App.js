@@ -18,42 +18,44 @@ function App() {
         text = "Activaciones Empresariales"
         id = "actEmp-h"
       />
-      <ActEmItem 
-      id = "actEmItem1"
-      text = "Perifonéo"        
-      />
-      <ActEmItem
-      id = "actEmItem2"
-      text = "Renta de bocinas"        
-       />
-       <ActEmItem
-      id = "actEmItem3"
-      text = "Animadores/as"        
-       />
-       <ActEmItem
-      id = "actEmItem4"
-      text = "Edecanes (AAA y AA)"        
-       />
-       <ActEmItem
-      id = "actEmItem5"
-      text = "Zanqueros"        
-       />
-       <ActEmItem
-      id = "actEmItem6"
-      text = "Promovendedores"        
-       />
-       <ActEmItem
-      id = "actEmItem7"
-      text = "Volanteros"        
-       />
-       <ActEmItem
-      id = "actEmItem8"
-      text = "Publiandantes"        
-       />
-       <ActEmItem
-      id = "actEmItem9"
-      text = "Marketing de redes sociales"        
-       />
+      <div className="actEmpItems">
+        <ActEmItem 
+        id = "actEmItem1"
+        text = "Perifonéo"        
+        />
+        <ActEmItem
+        id = "actEmItem2"
+        text = "Renta de bocinas"        
+        />
+        <ActEmItem
+        id = "actEmItem3"
+        text = "Animadores/as"        
+        />
+        <ActEmItem
+        id = "actEmItem4"
+        text = "Edecanes (AAA y AA)"        
+        />
+        <ActEmItem
+        id = "actEmItem5"
+        text = "Zanqueros"        
+        />
+        <ActEmItem
+        id = "actEmItem6"
+        text = "Promovendedores"        
+        />
+        <ActEmItem
+        id = "actEmItem7"
+        text = "Volanteros"        
+        />
+        <ActEmItem
+        id = "actEmItem8"
+        text = "Publiandantes"        
+        />
+        <ActEmItem
+        id = "actEmItem9"
+        text = "Marketing de redes sociales"        
+        />
+      </div>
     </div>
     {/* Renta de equipo page */}
     <div className="rentEquipo">
