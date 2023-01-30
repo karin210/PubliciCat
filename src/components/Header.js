@@ -3,8 +3,8 @@ import '../styles/header.css';
 function Header() {
   return(
     <div className="header">
-      <a>PCat</a>
-      <a>Menú</a>
+      <span>PCat</span>
+      <span>Menú</span>
     </div>
   )
 }

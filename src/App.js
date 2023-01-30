@@ -127,26 +127,26 @@ function App() {
         text = "Nosotros"
       />
       <figure className="nosotrosFigure">
-      <img className="nosotrosImg" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
+      <img alt="Equipo PubliCat" className="nosotrosImg" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>
         <figcaption className="nosotrosImgTxt">Equipo de PubliciCat</figcaption>
       </figure>
       <p className="nosotrosLeyenda">En PubliciCat somos un equipo con amplia experiencia en proyectos publicitarios. También contamos con servicio de renta de equipos de audio profesional y luces LED para eventos</p>
       <h2>Team</h2>
       <section id='teamMembers'>
         <figure className="teamFigure">
-          <img className="teamImg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" />
+          <img alt="Anna" className="teamImg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" />
           <figcaption className="teamImgTxt">Anna Abbey</figcaption>
         </figure>
         <figure className="teamFigure">
-          <img className="teamImg" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <img alt="Andy" className="teamImg" src="https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
           <figcaption className="teamImgTxt">Andy Keiffer</figcaption>
         </figure>
         <figure className="teamFigure">
-          <img className="teamImg" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <img alt="Cindy" className="teamImg" src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
           <figcaption className="teamImgTxt">Cindy Allin</figcaption>
         </figure>
         <figure className="teamFigure">
-          <img className="teamImg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
+          <img alt="Carla" className="teamImg" src="https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80" />
           <figcaption className="teamImgTxt">Carla López</figcaption>
         </figure>
       </section>
@@ -189,14 +189,14 @@ function App() {
           id= "clientes-h"
         />
       <div className="clientesLogos">
-        <img className="clientImg" src="https://static.vecteezy.com/system/resources/previews/007/978/618/original/pepsi-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" />
-        <img className="clientImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Logo_de_Cherdraui.svg/2560px-Logo_de_Cherdraui.svg.png" />
-        <img className="clientImg" src="https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg" />
-        <img className="clientImg" src="https://www.paredro.com/wp-content/uploads/2018/10/El-logotipo-de-Sanborns-%C2%BFSon-3-bu%CC%81hos-o-tecolotes.jpg" />
-        <img className="clientImg" src="https://cdn.milenio.com/uploads/media/2019/07/25/telcel-tambien-se-cayo-telcel.jpg" />
-        <img className="clientImg" src="https://static.wixstatic.com/media/34569a_db1e8cf5c6ad43668db22bc493632e76.jpg/v1/fill/w_549,h_344,al_c,lg_1,q_80,enc_auto/34569a_db1e8cf5c6ad43668db22bc493632e76.jpg" />
-        <img className="clientImg" src="https://static.wixstatic.com/media/cdb00b_cc343be0c3ab4b6d8fe22f39c7f5b5e3~mv2.png/v1/crop/x_188,y_113,w_789,h_744/fill/w_470,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo_laa-PERFORADO.png" />
-        <img className="clientImg" src="https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/5EY3TGRKWNC7BETJGJTSNJP5YI.png" />
+        <img alt="Pepsi" className="clientImg" src="https://static.vecteezy.com/system/resources/previews/007/978/618/original/pepsi-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" />
+        <img alt="Chedraui" className="clientImg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Logo_de_Cherdraui.svg/2560px-Logo_de_Cherdraui.svg.png" />
+        <img alt="CocaCola" className="clientImg" src="https://tentulogo.com/wp-content/uploads/2017/06/cocacola-logo.jpg" />
+        <img alt="Sanborns" className="clientImg" src="https://www.paredro.com/wp-content/uploads/2018/10/El-logotipo-de-Sanborns-%C2%BFSon-3-bu%CC%81hos-o-tecolotes.jpg" />
+        <img alt="Telcel" className="clientImg" src="https://cdn.milenio.com/uploads/media/2019/07/25/telcel-tambien-se-cayo-telcel.jpg" />
+        <img alt="Barezzito" className="clientImg" src="https://static.wixstatic.com/media/34569a_db1e8cf5c6ad43668db22bc493632e76.jpg/v1/fill/w_549,h_344,al_c,lg_1,q_80,enc_auto/34569a_db1e8cf5c6ad43668db22bc493632e76.jpg" />
+        <img alt="Los angeles azules" className="clientImg" src="https://static.wixstatic.com/media/cdb00b_cc343be0c3ab4b6d8fe22f39c7f5b5e3~mv2.png/v1/crop/x_188,y_113,w_789,h_744/fill/w_470,h_440,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/logo_laa-PERFORADO.png" />
+        <img alt="La sonora santanera" className="clientImg" src="https://cloudfront-us-east-1.images.arcpublishing.com/metroworldnews/5EY3TGRKWNC7BETJGJTSNJP5YI.png" />
       </div>
     </div>
     </div>
