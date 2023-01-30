@@ -1,7 +1,6 @@
 .section-header{
     text-align: center;
-    padding-top: 90px;
-    margin-top: 0;
-    margin-bottom: 55px;
+    padding: 45px 0;
     font-size: clamp(1.5rem, 2vw, 3rem);
+    margin: 0;
 }
