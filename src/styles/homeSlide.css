@@ -26,8 +26,9 @@
   max-width: 500px;
   text-align: center;
   position: relative;
-  border: 5px solid;
+  border: 12px solid;
   margin: 0 auto;
+
 }
 
 @media (max-height: 430px) {
