@@ -1,8 +1,7 @@
 .actEmItem {
   height: 200px;
   width: 100%;
-  max-width: 280px;
-  border: 2px solid;
+  max-width: 340px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -24,7 +23,7 @@
   @media (min-width: 1260px){
 
     .actEmItem{
-      max-width: 30%;
+      max-width: 33%;
       height: 370px;
       border: none;
     }

@@ -30,7 +30,7 @@ h1{
   background-color: rgba(20, 20, 20, 60%);
   position: absolute;
   width: 100%;
-  max-width: 280px;
+  max-width: 340px;
   height: 200px;
 }
 
@@ -45,7 +45,7 @@ content: "";
 background-color: rgba(21, 74 , 84, 60%);
 position: absolute;
 width: 100%;
-max-width: 280px;
+max-width: 340px;
 height: 200px;
 }
 
@@ -61,7 +61,7 @@ background-color: rgba(65, 20 , 20, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 #actEmItem4{
@@ -76,7 +76,7 @@ background-color: rgba(31, 44 , 96, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 #actEmItem5{
@@ -91,7 +91,7 @@ background-color: rgba(59, 49 , 41, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 #actEmItem6{
@@ -106,7 +106,7 @@ background-color: rgba(20, 41 , 20, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 #actEmItem7{
@@ -121,7 +121,7 @@ background-color: rgba(20, 20 , 43, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 #actEmItem8{
@@ -136,7 +136,7 @@ background-color: rgba(66, 20 , 20, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 #actEmItem9{
@@ -151,7 +151,7 @@ background-color: rgba(28, 30 , 83, 60%);
 position: absolute;
 width: 100%;
 height: 200px;
-max-width: 280px;
+max-width: 340px;
 }
 
 .rentEquipo{
@@ -367,55 +367,55 @@ Bugs
 @media (min-width: 1260px) {
 
 #actEmItem1::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem2::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem3::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem4::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem5::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem6::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem7::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem8::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
 
 #actEmItem9::before{
-  max-width: 30%;
+  max-width: 33%;
   height: 370px;
 
 }
