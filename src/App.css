@@ -183,36 +183,43 @@ max-width: 280px;
 #historia1{
   background-image: url(https://www.ferventevents.com/wp-content/uploads/Public-Mobile2.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 #historia2{
   background-image: url(https://laopinion.com/wp-content/uploads/sites/3/2019/12/imago-515539.jpg?quality=80&strip=all&w=1200);
   background-size: cover;
+  background-position: center;
 }
 
 #historia3{
   background-image: url(https://cdn0.casamientos.com.ar/vendor/1765/3_2/960/jpg/1505319496.jpeg);
   background-size: cover;
+  background-position: center;
 }
 
 #historia4{
   background-image: url(https://asset1.zankyou.com/images/wervice-card-big/ced/3ebc/1050/800/w/663056/-/1534613870.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 #historia5{
   background-image: url(https://i.pinimg.com/736x/80/b8/0a/80b80a7f559f8cc0880510fbee57d38b--cancun-mexico-festival.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 #historia6{
   background-image: url(https://www.elsoldemexico.com.mx/incoming/g2vu8i-angeles-azules-coachella.jpg/ALTERNATES/LANDSCAPE_1140/angeles-azules-coachella.jpg);
   background-size: cover;
+  background-position: center;
 }
 
 #historia7{
   background-image: url(https://quintafuerzamx.s3.us-east-2.amazonaws.com/Leopard/uploads/2021/09/WhatsApp-Image-2021-09-22-at-2.42.28-PM-696x392.jpeg);
   background-size: cover;
+  background-position: center;
 }
 
 .historiasItems{
@@ -221,6 +228,7 @@ max-width: 280px;
   height: auto;
   width: 100%;
   justify-content: center;
+  gap: 15px;
 }
 
 .nosotros{
