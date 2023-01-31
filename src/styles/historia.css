@@ -1,4 +1,4 @@
-.historia{
+.historia {
   width: 90%;
   max-width: 340px;
   height: 200px;
@@ -6,11 +6,11 @@
   border-bottom: 1px solid black;
 }
 
-@media (min-width: 1260px){
+@media (min-width: 1260px) {
 
-  .historia{
-    max-width: 30%;
+  .historia {
+    max-width: 32%;
     height: 370px;
-    }
+  }
 
 }
