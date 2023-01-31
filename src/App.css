@@ -215,6 +215,14 @@ max-width: 280px;
   background-size: cover;
 }
 
+.historiasItems{
+  display: flex;
+  flex-flow: row wrap;
+  height: auto;
+  width: 100%;
+  justify-content: center;
+}
+
 .nosotros{
   display: flex;
   flex-direction: column;

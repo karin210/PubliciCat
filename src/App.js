@@ -98,28 +98,30 @@ function App() {
       <SectionH1 
         text = "Historias"
         id = "historias-h"
+      />
+      <div className="historiasItems">
+        <Historia 
+          id= "historia1"
         />
-      <Historia 
-        id= "historia1"
-      />
-      <Historia 
-      id= "historia2"
-      />
-      <Historia 
-      id= "historia3"
-      />
-      <Historia
-      id= "historia4"
-      />
-      <Historia 
-      id= "historia5"
-      />
-      <Historia 
-      id= "historia6"
-      />
-      <Historia 
-      id= "historia7"
-      />
+        <Historia 
+          id= "historia2"
+        />
+        <Historia 
+          id= "historia3"
+        />
+        <Historia
+          id= "historia4"
+        />
+        <Historia 
+          id= "historia5"
+        />
+        <Historia 
+          id= "historia6"
+        />
+        <Historia 
+          id= "historia7"
+        />
+      </div>
     </div>
     {/* Nosotros page */}
     <div className="nosotros">
