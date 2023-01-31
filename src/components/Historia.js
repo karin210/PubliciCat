@@ -2,7 +2,7 @@ import "../styles/historia.css";
 
 function Historia(props){
     return(
-        <div className="historia" id={props.id}>
+        <div className="historiaLol" id={props.id}>
 
         </div>
     );
