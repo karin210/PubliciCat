@@ -31,6 +31,8 @@
 
 }
 
+
+/* Prevent slide text's border overflow */
 @media (max-height: 430px) {
 
   .slides span {

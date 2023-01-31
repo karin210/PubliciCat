@@ -10,10 +10,28 @@
 
 .actEmItem span {
   font-size: 2rem;
-  border: 2px solid white;
-  padding: 20px 10px;
+  border: 2px solid ghostwhite;
+  padding: 8% 2%;
   width: 80%;
   text-align: center;
   position: relative;
-  color: white;
+  color: ghostwhite;
+  word-break: break-all;
+  }
+
+/* media queries to laptops up */
+
+  @media (min-width: 769px){
+
+    .actEmItem{
+      max-width: 30%;
+      height: 370px;
+      border: none;
+    }
+
+    .actEmItem span{
+      padding: 14% 1%;
+      border: 4px solid;
+      font-size: max(2.7rem);
+    }
   }

@@ -3,6 +3,7 @@ h1{
 }
 
 .actEmp{
+  width: 100%;
   height: auto;
   background-color: rgba(20, 20, 20, 97%);
 
@@ -346,8 +347,62 @@ Bugs
     -Shrink a bit the actEmItems's modals
 */
 
+/* media queries to laptops up */
+@media (min-width: 769px) {
 
-@media (min-width: 900px) {
+#actEmItem1::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem2::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem3::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem4::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem5::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem6::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem7::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem8::before{
+  max-width: 30%;
+  height: 370px;
+
+}
+
+#actEmItem9::before{
+  max-width: 30%;
+  height: 370px;
+
+}
 
 .rentEquipoItems{
   gap: 40px 100px;
