@@ -21,7 +21,7 @@
 
 /* media queries to laptops up */
 
-  @media (min-width: 769px){
+  @media (min-width: 1260px){
 
     .actEmItem{
       max-width: 30%;

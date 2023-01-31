@@ -348,7 +348,7 @@ Bugs
 */
 
 /* media queries to laptops up */
-@media (min-width: 769px) {
+@media (min-width: 1260px) {
 
 #actEmItem1::before{
   max-width: 30%;
