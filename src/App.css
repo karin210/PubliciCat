@@ -15,7 +15,7 @@ h1 {
   justify-content: center;
 }
 
-#actEmp-h {
+#actEmpH {
   color: ghostwhite;
 }
 
@@ -184,12 +184,11 @@ h1 {
   background-color: rgba(20, 20, 20, 97%);
 }
 
-#historias-h,
-#clientes-h {
+#historiasH, #clientes-h {
   color: ghostwhite;
 }
 
-#historia1 {
+#historia1 {  
   background-image: url(https://www.ferventevents.com/wp-content/uploads/Public-Mobile2.jpg);
   background-size: cover;
   background-position: center;

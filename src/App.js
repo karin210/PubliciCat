@@ -18,7 +18,7 @@ function App() {
     <div className="actEmp">
       <SectionH1 
         text = "Activaciones Empresariales"
-        id = "actEmp-h"
+        id = "actEmpH"
       />
       <div className="actEmpItems">
         <ActEmItem 
@@ -65,6 +65,7 @@ function App() {
     <div className="rentEquipo">
       <SectionH1 
         text = "Renta de equipo y entretenimiento"
+        id = ""
       />
       <div className="rentEquipoItems">
         <RenEquipoItem
@@ -101,7 +102,7 @@ function App() {
     <div className="historias">
       <SectionH1 
         text = "Historias"
-        id = "historias-h"
+        id = "historiasH"
       />
       <div className="historiasItems">
         <Historia 
@@ -192,7 +193,7 @@ function App() {
     <div className="clientes">
       <SectionH1 
           text = "Clientes"
-          id= "clientes-h"
+          id= "clientesH"
         />
       <div className="clientesLogos">
         <img alt="Pepsi" className="clientImg" src="https://static.vecteezy.com/system/resources/previews/007/978/618/original/pepsi-popular-drink-brand-logo-vinnytsia-ukraine-may-16-202-free-vector.jpg" />
