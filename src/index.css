@@ -1,6 +1,11 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   height: auto;
   box-sizing: border-box;
   background-color: rgba(250, 250, 250, 100%);
-  font-family: 'Open Sans', sans-serif;}
+  font-family: 'Open Sans', sans-serif;
+}
