@@ -64,7 +64,7 @@ function App() {
     {/* Renta de equipo page */}
     <div className="rentEquipo">
       <SectionH1 
-        text = "Renta de equipo"
+        text = "Renta de equipo y entretenimiento"
       />
       <div className="rentEquipoItems">
         <RenEquipoItem
