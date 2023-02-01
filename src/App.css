@@ -301,7 +301,7 @@ h1 {
 }
 
 .teamImgTxt {
-  font-size: 1.1rem;
+  font-size: clamp(0.9rem, 1.2vw, 1.7rem);
   background-color: rgba(20, 20, 20, 95%);
   width: 116px;
   padding: 7px 0;
@@ -443,6 +443,18 @@ Bugs
   .nosotrosImgTxt {
     max-width: 804px;
 
+  }
+
+  .teamFigure{
+    width: 10%;
+  }
+
+  .teamImg{
+    width: 100%;
+  }
+
+  .teamImgTxt{
+    width: calc(100% + 4px);
   }
 
 }
