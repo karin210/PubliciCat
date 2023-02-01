@@ -316,7 +316,8 @@ h1 {
 
 .contactoKeyVal,
 .ubicacionKeyVal {
-  margin-bottom: 15px;
+  display: flex;
+  justify-content: center;
   padding: 0
 }
 
@@ -456,5 +457,25 @@ Bugs
   .teamImgTxt{
     width: calc(100% + 4px);
   }
+
+  .contactoKey,
+.ubicacionKey{
+  width: auto;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+.contactoVal,
+.ubicacionVal{
+  width: auto;
+  padding: 10px;
+  font-size: 1.2rem;
+}
+
+
+#locationMap{
+  width: 400px;
+  height: 300px;
+}
 
 }
