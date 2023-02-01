@@ -1,10 +1,11 @@
 import '../styles/header.css';
 
 function Header(props) {
+
   return(
     <div className="header">
       <nav>
-        <a>PCat</a>
+        <a href="home">PCat</a>
       </nav>
       <nav id="navGroup">
         <span id={props.aMenuId}>Menú</span>

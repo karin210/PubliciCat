@@ -9,7 +9,7 @@ import locationMap from './images/locationMap.png';
 function App() {
   return (
     // Home page
-    <div className="App">
+    <div id="home" className="App">
       <Header 
         aMenuId = "aMenu"
       />
