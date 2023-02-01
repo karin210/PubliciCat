@@ -366,8 +366,8 @@ h1 {
 
 .clientImg {
   width: 40%;
-  max-width: 250px;
-  height: 100px;
+  max-width: 170px;
+  height: auto  
 }
 
 
@@ -491,6 +491,6 @@ Bugs
   }
 
   .clientImg{
-    height: 170px;
+    max-width: 170px;
   }
 }
