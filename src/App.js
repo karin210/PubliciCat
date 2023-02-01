@@ -25,7 +25,8 @@ function App() {
         />
         <ActEmItem
         id = "actEmItem2"
-        text = "Renta de bocinas"        
+        text = "Renta de bocinas" 
+        spanId = "actEmItemTxt2"       
         />
         <ActEmItem
         id = "actEmItem3"
@@ -53,7 +54,8 @@ function App() {
         />
         <ActEmItem
         id = "actEmItem9"
-        text = "Marketing de redes sociales"        
+        text = "Marketing de redes sociales"   
+        spanId = "actEmItemText9"     
         />
       </div>
     </div>
