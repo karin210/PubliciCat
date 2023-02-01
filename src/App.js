@@ -133,7 +133,7 @@ function App() {
         <figcaption className="nosotrosImgTxt">Equipo de PubliciCat</figcaption>
       </figure>
       <p className="nosotrosLeyenda">En PubliciCat somos un equipo con amplia experiencia en proyectos publicitarios. También contamos con servicio de renta de equipos de audio profesional y luces LED para eventos</p>
-      <h2>Equipo</h2>
+      <h2 className="subsectionH2">Equipo</h2>
       <section id='teamMembers'>
         <figure className="teamFigure">
           <img alt="Anna" className="teamImg" src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80" />
@@ -152,7 +152,7 @@ function App() {
           <figcaption className="teamImgTxt">Carla López</figcaption>
         </figure>
       </section>
-      <h2>Contacto</h2>
+      <h2 className="subsectionH2">Contacto</h2>
       <section className="contacto">
         <ul className="contactoKeyVal">
           <li className="contactoKey">e-mail:</li>
@@ -167,7 +167,7 @@ function App() {
           <li className="contactoVal">335-342-8074</li>
         </ul>
       </section>
-      <h2>Dirección</h2>
+      <h2 className="subsectionH2">Dirección</h2>
       <section id="ubicacion">
         <ul className="ubicacionKeyVal">
           <li className="ubicacionKey">Ciudad:</li>

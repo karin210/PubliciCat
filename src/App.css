@@ -1,31 +1,31 @@
-h1{
+h1 {
   font-size: 1.7rem;
 }
 
-.actEmp{
+.actEmp {
   width: 100%;
   height: auto;
   background-color: rgba(20, 20, 20, 97%);
 
 }
 
-.actEmpItems{
+.actEmpItems {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
 }
 
-#actEmp-h{
-  color: ghostwhite;  
+#actEmp-h {
+  color: ghostwhite;
 }
 
-#actEmItem1{
+#actEmItem1 {
   background-image: url(https://irp.cdn-website.com/40b97842/MOBILE/jpg/18605.jpg);
   background-size: cover;
   background-position: top;
 }
 
-#actEmItem1::before{
+#actEmItem1::before {
   content: "";
   background-color: rgba(20, 20, 20, 60%);
   position: absolute;
@@ -34,133 +34,133 @@ h1{
   height: 200px;
 }
 
-#actEmItem2{
+#actEmItem2 {
   background-image: url(https://images.unsplash.com/photo-1597183739841-5ca26ab0a604?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1632&q=80);
   background-size: cover;
   background-position: center;
 }
 
-#actEmItem2::before{
-content: "";
-background-color: rgba(21, 74 , 84, 60%);
-position: absolute;
-width: 100%;
-max-width: 340px;
-height: 200px;
+#actEmItem2::before {
+  content: "";
+  background-color: rgba(21, 74, 84, 60%);
+  position: absolute;
+  width: 100%;
+  max-width: 340px;
+  height: 200px;
 }
 
-#actEmItem3{
+#actEmItem3 {
   background-image: url(https://i.ytimg.com/vi/wcAjPLDsnmA/maxresdefault.jpg);
   background-size: cover;
   background-position: top;
 }
 
-#actEmItem3::before{
-content: "";
-background-color: rgba(65, 20 , 20, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem3::before {
+  content: "";
+  background-color: rgba(65, 20, 20, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-#actEmItem4{
+#actEmItem4 {
   background-image: url(https://edecanesvip.mx/wp-content/uploads/2022/06/image-3.png);
   background-size: cover;
   background-position: top;
 }
 
-#actEmItem4::before{
-content: "";
-background-color: rgba(31, 44 , 96, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem4::before {
+  content: "";
+  background-color: rgba(31, 44, 96, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-#actEmItem5{
+#actEmItem5 {
   background-image: url(https://img77.uenicdn.com/image/upload/v1569397330/business/6190dcf5-72fe-43de-8776-278798411538.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#actEmItem5::before{
-content: "";
-background-color: rgba(59, 49 , 41, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem5::before {
+  content: "";
+  background-color: rgba(59, 49, 41, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-#actEmItem6{
+#actEmItem6 {
   background-image: url(https://bolsadetrabajo.vip/wp-content/uploads/2021/09/captadores-unicef_edited-1-265x198.jpg);
   background-size: cover;
   background-position: top;
 }
 
-#actEmItem6::before{
-content: "";
-background-color: rgba(20, 41 , 20, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem6::before {
+  content: "";
+  background-color: rgba(20, 41, 20, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-#actEmItem7{
+#actEmItem7 {
   background-image: url(https://joaquinelvolantero.com/wp-content/uploads/2021/08/servicio-de-volanteo-en-lima.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#actEmItem7::before{
-content: "";
-background-color: rgba(20, 20 , 43, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem7::before {
+  content: "";
+  background-color: rgba(20, 20, 43, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-#actEmItem8{
+#actEmItem8 {
   background-image: url(https://md-max.com/wp-content/gallery/publiandantes/IMG_20180309_095210.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#actEmItem8::before{
-content: "";
-background-color: rgba(66, 20 , 20, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem8::before {
+  content: "";
+  background-color: rgba(66, 20, 20, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-#actEmItem9{
+#actEmItem9 {
   background-image: url(https://images.unsplash.com/photo-1611926653458-09294b3142bf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
   background-size: cover;
   background-position: center;
 }
 
-#actEmItem9::before{
-content: "";
-background-color: rgba(28, 30 , 83, 60%);
-position: absolute;
-width: 100%;
-height: 200px;
-max-width: 340px;
+#actEmItem9::before {
+  content: "";
+  background-color: rgba(28, 30, 83, 60%);
+  position: absolute;
+  width: 100%;
+  height: 200px;
+  max-width: 340px;
 }
 
-.rentEquipo{
+.rentEquipo {
   height: auto;
   width: 100%;
   margin-bottom: 20px;
 }
 
-.rentEquipoItems{
+.rentEquipoItems {
   display: flex;
   flex-flow: row wrap;
   gap: 10px;
@@ -168,7 +168,7 @@ max-width: 340px;
 }
 
 
-.historias{
+.historias {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -176,53 +176,54 @@ max-width: 340px;
   background-color: rgba(20, 20, 20, 97%);
 }
 
-#historias-h, #clientes-h{
+#historias-h,
+#clientes-h {
   color: ghostwhite;
 }
 
-#historia1{
+#historia1 {
   background-image: url(https://www.ferventevents.com/wp-content/uploads/Public-Mobile2.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#historia2{
+#historia2 {
   background-image: url(https://laopinion.com/wp-content/uploads/sites/3/2019/12/imago-515539.jpg?quality=80&strip=all&w=1200);
   background-size: cover;
   background-position: center;
 }
 
-#historia3{
+#historia3 {
   background-image: url(https://cdn0.casamientos.com.ar/vendor/1765/3_2/960/jpg/1505319496.jpeg);
   background-size: cover;
   background-position: center;
 }
 
-#historia4{
+#historia4 {
   background-image: url(https://asset1.zankyou.com/images/wervice-card-big/ced/3ebc/1050/800/w/663056/-/1534613870.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#historia5{
+#historia5 {
   background-image: url(https://i.pinimg.com/736x/80/b8/0a/80b80a7f559f8cc0880510fbee57d38b--cancun-mexico-festival.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#historia6{
+#historia6 {
   background-image: url(https://www.elsoldemexico.com.mx/incoming/g2vu8i-angeles-azules-coachella.jpg/ALTERNATES/LANDSCAPE_1140/angeles-azules-coachella.jpg);
   background-size: cover;
   background-position: center;
 }
 
-#historia7{
+#historia7 {
   background-image: url(https://quintafuerzamx.s3.us-east-2.amazonaws.com/Leopard/uploads/2021/09/WhatsApp-Image-2021-09-22-at-2.42.28-PM-696x392.jpeg);
   background-size: cover;
   background-position: center;
 }
 
-.historiasItems{
+.historiasItems {
   display: flex;
   flex-flow: row wrap;
   height: auto;
@@ -231,14 +232,14 @@ max-width: 340px;
   gap: 15px;
 }
 
-.nosotros{
+.nosotros {
   display: flex;
   flex-direction: column;
   align-items: center;
   border-bottom: 1px solid black;
 }
 
-.nosotrosFigure{
+.nosotrosFigure {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -247,15 +248,15 @@ max-width: 340px;
 
 }
 
-.nosotrosImg{
+.nosotrosImg {
   width: 80%;
   max-width: 340px;
   border: 2px solid;
 }
 
-.nosotrosImgTxt{
-  font-size: clamp(1.1rem, 0.8vw, 1.7rem);
-  background-color: rgba(20, 20 , 20, 95%);
+.nosotrosImgTxt {
+  font-size: clamp(0.9rem, 1.2vw, 1.7rem);
+  background-color: rgba(20, 20, 20, 95%);
   width: 81%;
   max-width: 344px;
   padding: 7px 0;
@@ -263,86 +264,94 @@ max-width: 340px;
   color: ghostwhite;
 }
 
-.nosotrosLeyenda{
-  background-color: rgba(20, 20 , 20, 95%);
+.nosotrosLeyenda {
+  background-color: rgba(20, 20, 20, 95%);
   color: ghostwhite;
   width: 80%;
-  padding: 20px 16px;
-  font-size: 1.2rem;
-  border-radius: 7px;
+  max-width: 900px;
+  padding: clamp(25px, 6%, 60px) clamp(10px, 10%, 40px);
+  font-size: clamp(1.1rem, 1.5vw, 3rem);
   margin-bottom: 30px;
-
+  font-family: sans-serif;
 }
 
-#teamMembers{
+.subsectionH2{
+  font-size: clamp(1.5rem, 2vw, 3rem);
+}
+
+#teamMembers {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
   margin-bottom: 20px;
 }
 
-.teamFigure{
+.teamFigure {
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 70px;
 }
 
-.teamImg{
+.teamImg {
   width: 112px;
   margin: 0;
   border: 2px solid;
 
 }
 
-.teamImgTxt{
+.teamImgTxt {
   font-size: 1.1rem;
-  background-color: rgba(20, 20 , 20, 95%);
+  background-color: rgba(20, 20, 20, 95%);
   width: 116px;
   padding: 7px 0;
   text-align: center;
   color: ghostwhite;
 }
 
-.contacto, #ubicacion{
+.contacto,
+#ubicacion {
   width: 100%;
 }
 
-.contactoKeyVal, .ubicacionKeyVal{
+.contactoKeyVal,
+.ubicacionKeyVal {
   margin-bottom: 15px;
   padding: 0
 }
 
-.contactoKey, .ubicacionKey{
+.contactoKey,
+.ubicacionKey {
   display: inline-block;
-  width: 40%;  
-  color: rgba(20, 20 , 20, 95%);
+  width: 40%;
+  color: rgba(20, 20, 20, 95%);
   font-size: 1rem;
-  padding: 10px 10px;  
+  padding: 10px 10px;
   text-align: end;
 }
 
-.contactoVal, .ubicacionVal{
+.contactoVal,
+.ubicacionVal {
   display: inline-block;
-  width: 43%;  
-  color: rgba(20, 20 , 20, 95%);
+  width: 43%;
+  color: rgba(20, 20, 20, 95%);
   font-size: 1rem;
   padding: 10px 10px;
 }
 
-#locationMap{
+#locationMap {
   width: 300px;
   height: 220px;
   margin-bottom: 20px;
 }
 
-.clientes{
+.clientes {
   background-color: rgba(20, 20, 20, 95%);
   border-bottom: 1px solid black;
 
 }
 
-.clientesLogos{
+.clientesLogos {
   display: flex;
   flex-flow: row wrap;
   height: auto;
@@ -351,7 +360,7 @@ max-width: 340px;
   padding-bottom: 60px;
 }
 
-.clientImg{
+.clientImg {
   width: 40%;
   height: 100px;
 }
@@ -368,73 +377,72 @@ Bugs
 /* media queries to laptops up */
 @media (min-width: 1260px) {
 
-#actEmItem1::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem1::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem2::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem2::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem3::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem3::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem4::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem4::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem5::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem5::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem6::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem6::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem7::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem7::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem8::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem8::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-#actEmItem9::before{
-  max-width: 33%;
-  height: 370px;
+  #actEmItem9::before {
+    max-width: 33%;
+    height: 370px;
 
-}
+  }
 
-.rentEquipoItems{
-  gap: 40px 100px;
-  margin: 0 100px
+  .rentEquipoItems {
+    gap: 40px 100px;
+    margin: 0 100px
+  }
 
-}
+  .nosotrosImg {
+    max-width: 800px;
+  }
 
-.nosotrosImg{
-  max-width: 800px;
-}
+  .nosotrosImgTxt {
+    max-width: 804px;
 
-.nosotrosImgTxt{
-  max-width: 804px;
-
-}
+  }
 
 }
