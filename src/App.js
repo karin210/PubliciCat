@@ -65,7 +65,7 @@ function App() {
     <div className="rentEquipo">
       <SectionH1 
         text = "Renta de equipo y entretenimiento"
-        id = ""
+        id = "rentaH"
       />
       <div className="rentEquipoItems">
         <RenEquipoItem
@@ -132,6 +132,7 @@ function App() {
     <div className="nosotros">
       <SectionH1 
         text = "Nosotros"
+        id = "nosotrosH"
       />
       <figure className="nosotrosFigure">
       <img alt="Equipo PubliCat" className="nosotrosImg" src="https://images.unsplash.com/photo-1543269865-cbf427effbad?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"/>

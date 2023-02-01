@@ -8,11 +8,11 @@ function Header(props) {
       </nav>
       <nav id="navGroup">
         <span id={props.aMenuId}>Menú</span>
-        <a href="#actEmp-h" id={props.aActId}>Activaciones Empresariales</a>
-        <a id={props.aRenId}>Renta de equipo y entretenimiento</a>
-        <a id={props.aHistId}>Historias</a>
-        <a id={props.aNosId}>Nosotros</a>
-        <a id={props.aClienId}>Clientes</a>
+        <a href="#actEmpH" id={props.aActId}>Activaciones Empresariales</a>
+        <a href="#rentaH" id={props.aRenId}>Renta de equipo y entretenimiento</a>
+        <a href="#historiasH" id={props.aHistId}>Historias</a>
+        <a href="#nosotrosH" id={props.aNosId}>Nosotros</a>
+        <a href="#clientesH" id={props.aClienId}>Clientes</a>
       </nav>
     </div>
   )
