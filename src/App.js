@@ -10,7 +10,9 @@ function App() {
   return (
     // Home page
     <div className="App">
-      <Header />
+      <Header 
+        aMenuId = "aMenu"
+      />
       <HomeSlide />
     {/* Activaciones Empresariales page */}
     <div className="actEmp">

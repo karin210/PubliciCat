@@ -387,6 +387,10 @@ Bugs
 /* media queries to laptops up */
 @media (min-width: 1260px) {
 
+  #aMenu{
+    display: none;
+  }
+
   #actEmItem1::before {
     max-width: 33%;
     height: 370px;
