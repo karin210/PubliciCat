@@ -6,7 +6,7 @@ function Header(props) {
       <nav>
         <a>PCat</a>
       </nav>
-      <nav>
+      <nav id="navGroup">
         <span id={props.aMenuId}>Menú</span>
         <a id={props.aActId}>Activaciones Empresariales</a>
         <a id={props.aRenId}>Renta de equipo y entretenimiento</a>
