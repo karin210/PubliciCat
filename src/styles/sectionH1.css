@@ -4,6 +4,15 @@
     font-size: clamp(1.5rem, 2vw, 3rem);
     font-weight: 400;
     margin: 0;
+    margin-bottom: 30px;
+
+}
+
+
+@media (min-width: 1260px){
+
+  .section-header{
     margin-bottom: 60px;
 
+  }
 }
