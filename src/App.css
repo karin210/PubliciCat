@@ -275,7 +275,7 @@ h1 {
   font-family: sans-serif;
 }
 
-.subsectionH2{
+.subsectionH2 {
   font-size: clamp(1.5rem, 2vw, 3rem);
 }
 
@@ -363,6 +363,7 @@ h1 {
 
 .clientImg {
   width: 40%;
+  max-width: 250px;
   height: 100px;
 }
 
@@ -446,36 +447,43 @@ Bugs
 
   }
 
-  .teamFigure{
+  .teamFigure {
     width: 10%;
   }
 
-  .teamImg{
+  .teamImg {
     width: 100%;
   }
 
-  .teamImgTxt{
+  .teamImgTxt {
     width: calc(100% + 4px);
   }
 
   .contactoKey,
-.ubicacionKey{
-  width: auto;
-  padding: 10px;
-  font-size: 1.2rem;
-}
+  .ubicacionKey {
+    width: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
 
-.contactoVal,
-.ubicacionVal{
-  width: auto;
-  padding: 10px;
-  font-size: 1.2rem;
-}
+  .contactoVal,
+  .ubicacionVal {
+    width: auto;
+    padding: 10px;
+    font-size: 1.2rem;
+  }
 
 
-#locationMap{
-  width: 400px;
-  height: 300px;
-}
+  #locationMap {
+    width: 400px;
+    height: 300px;
+  }
 
+  .clientesLogos{
+    gap: 25px;
+  }
+
+  .clientImg{
+    height: 170px;
+  }
 }
