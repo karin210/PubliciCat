@@ -283,7 +283,8 @@ h1 {
 }
 
 .subsectionH2 {
-  font-size: clamp(1.5rem, 2vw, 3rem);
+  font-size: clamp(1.3rem, 1.8vw, 2.7rem);
+  font-weight: 400;
 }
 
 #teamMembers {
