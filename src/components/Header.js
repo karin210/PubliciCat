@@ -1,7 +1,6 @@
 import '../styles/header.css';
 
 function Header(props) {
-
   return(
     <div className="header">
       <nav>

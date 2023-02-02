@@ -214,4 +214,10 @@ function App() {
 export default App;
 
 
-// Modify the tittle
+/*
+  Bugs:
+  - to get a logo for the page.
+  -insert the logo at the tittle.
+  -On click on the home anchor it doens't scolls smooth.
+  - to put cursor pointers to the clickeable elements.
+*/ 
