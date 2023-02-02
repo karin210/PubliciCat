@@ -27,11 +27,21 @@ nav a:visited{
     color: rgba(20, 20, 20, 97%);
 }
 
-.menuDrop{
-  display: flex;
-  width: 100px;
-  height: 100px;
-  background-color: aqua;
+.hideMenu{
+    display: none;
+}
+
+.showMenu{
+    display: flex;
+    flex-direction: column;
+    background-color:  rgba(252, 252, 252, 80%);
+    position: absolute;
+    top: 50px;
+    right: 10px;
+    font-size: 0.85rem;
+    gap: 8px;
+    text-align: center;
+    padding: 12px;
 }
 
 
@@ -52,5 +62,9 @@ nav a:visited{
         display: flex;
         width: 70%;
         justify-content: space-around;
+    }
+
+    .hideMenu{
+        display: none;
     }
 }
