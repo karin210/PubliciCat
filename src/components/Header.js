@@ -2,8 +2,9 @@ import '../styles/header.css';
 
 function Header(props) {
 
+  
   function showMenu(){
-    const dropDownMenu = document.querySelector("#dropDownMenu");
+    let dropDownMenu = document.querySelector("#dropDownMenu");
     if(dropDownMenu.classList.contains("hideMenu")){
       dropDownMenu.classList.add("showMenu");
       dropDownMenu.classList.remove("hideMenu");
@@ -11,8 +12,9 @@ function Header(props) {
       dropDownMenu.classList.add("hideMenu");
       dropDownMenu.classList.remove("showMenu");
     }
-    
+
   }
+
 
   return(
     <div className="header">
