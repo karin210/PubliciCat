@@ -1,39 +1,35 @@
 import '../styles/header.css';
-import { useState } from 'react';
+import { useEffect, useState, useRef } from 'react';
 
 function Header(props) {
-
+const menuRef = useRef();
   const [show, setShow] = useState(false);
 
+  
+  
   function showMenu(){
-    if(show === false){
-      setShow(true);
-    } else{
-      setShow(false);
-    }
+  setShow(!show)
   }
 
-
   
-  // function showMenu(){
-  //   let dropDownMenu = document.querySelector("#dropDownMenu");
-  //   if(dropDownMenu.classList.contains("hideMenu")){
-  //     dropDownMenu.classList.add("showMenu");
-  //     dropDownMenu.classList.remove("hideMenu");
-  //   } else {
-  //     dropDownMenu.classList.add("hideMenu");
-  //     dropDownMenu.classList.remove("showMenu");
-  //   }
-
-  // }
-
+  useEffect(()=>{ let closeMenu = (e) =>{
+    if(show && !menuRef.current.contains(e.target)){
+      setShow(false);
+    }
+    // console.log(menuRef, e.target, menuRef.current.contains(e.target));
+  
+  };
+  document.addEventListener("click", closeMenu);
+  return () => document.removeEventListener("click", closeMenu);
+  
+}, [show]);
 
   return(
     <div className="header">
       <nav>
-        <a href="home">PCat</a>
+        <a href="#home">PCat</a>
       </nav>
-      <nav id="navGroup">
+      <nav id="navGroup" ref={menuRef}>
         <span onClick={()=>showMenu()} id={props.aMenuId}>Menú</span>
         <a href="#actEmpH" id={props.aActId}>Activaciones Empresariales</a>
         <a href="#rentaH" id={props.aRenId}>Renta de equipo y entretenimiento</a>
