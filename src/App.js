@@ -14,6 +14,7 @@ function App() {
         aMenuId = "aMenu"
       />
       <HomeSlide />
+
     {/* Activaciones Empresariales page */}
     <div className="actEmp">
       <SectionH1 
@@ -61,6 +62,7 @@ function App() {
         />
       </div>
     </div>
+
     {/* Renta de equipo page */}
     <div className="rentEquipo">
       <SectionH1 
@@ -98,6 +100,7 @@ function App() {
         />
       </div>
     </div>
+
     {/* Historias page */}
     <div className="historias">
       <SectionH1 
@@ -128,6 +131,7 @@ function App() {
         />
       </div>
     </div>
+
     {/* Nosotros page */}
     <div className="nosotros">
       <SectionH1 
@@ -190,6 +194,7 @@ function App() {
       </section>
       <a href="https://www.google.com/maps/place/C.+Gaspar+de+Villadiego+117,+Nueva+Valladolid,+58190+Morelia,+Mich./@19.6936108,-101.2159938,17z/data=!4m6!3m5!1s0x842d0e83040c2611:0xd09c3970fa153acc!8m2!3d19.6951866!4d-101.2159616!16s%2Fg%2F11c57d57yg"><img id="locationMap" alt="map" src={locationMap} /></a>
     </div>
+    
     {/* Clientes page/ */}
     <div className="clientes">
       <SectionH1 
