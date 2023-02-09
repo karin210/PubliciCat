@@ -11,16 +11,9 @@
   align-items: center;
 }
 
-.historia::after{
-  content: "";
-  width: 100%;
-  height: 200px;
-  background-color: rgba(10%, 10%, 10%, 70%);
-  position: absolute;
-}
 
 .histTxt{
-  display: block;
+  display: none;
   position: relative;
   width: 100%;
   max-width: 340px;
@@ -28,9 +21,23 @@
   text-align: center;
   color: ghostwhite;
   z-index: 1;
-
+  
 }
 
+.histTxt::before{
+  display: block;
+  content: "";
+  width: 100%;
+  height: 200px;
+  background-color: rgba(10%, 10%, 10%, 70%);
+  position: absolute;
+  top: -78px;
+  z-index: -1;
+}
+
+#historia1 .histTxt{
+  top: -11px;
+}
 
 .historia:hover{
   filter: brightness(1.3);
