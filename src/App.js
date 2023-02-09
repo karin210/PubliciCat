@@ -6,6 +6,7 @@ import Historia from './components/Historia';
 import RenEquipoItem from './components/RenEquipoItem';
 import SectionH1 from './components/SectionH1';
 import locationMap from './images/locationMap.png';
+
 function App() {
   return (
     // Home page
@@ -104,30 +105,37 @@ function App() {
     {/* Historias page */}
     <div className="historias">
       <SectionH1 
-        text = "Historias"
-        id = "historiasH"
+        text= "Historias"
+        id= "historiasH"
       />
       <div className="historiasItems">
         <Historia 
           id= "historia1"
+          txt= "Animadores con PublicMOBILE"
         />
         <Historia 
           id= "historia2"
+          txt= "Edecán AAA como ring girl en evento de box"
         />
         <Historia 
           id= "historia3"
+          txt= "Preparación de iluminación y audio para boda"
         />
         <Historia
           id= "historia4"
+          txt= "Preparación de iluminación y audio para XV años"
         />
         <Historia 
           id= "historia5"
+          txt= "Preparación de iluminación y audio para concierto al aire libre"
         />
         <Historia 
           id= "historia6"
+          txt= "Preparación de iluminación y audio para concierto de Los Ángeles Azules"
         />
         <Historia 
           id= "historia7"
+          txt= "Preparación de iluminación y audio para concierto de La Sonora Santanera"
         />
       </div>
     </div>
@@ -194,7 +202,7 @@ function App() {
       </section>
       <a href="https://www.google.com/maps/place/C.+Gaspar+de+Villadiego+117,+Nueva+Valladolid,+58190+Morelia,+Mich./@19.6936108,-101.2159938,17z/data=!4m6!3m5!1s0x842d0e83040c2611:0xd09c3970fa153acc!8m2!3d19.6951866!4d-101.2159616!16s%2Fg%2F11c57d57yg"><img id="locationMap" alt="map" src={locationMap} /></a>
     </div>
-    
+
     {/* Clientes page/ */}
     <div className="clientes">
       <SectionH1 
