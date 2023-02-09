@@ -14,7 +14,7 @@ function Historia(props){
       setModal(!modal);
       } else {
           historiaTxt.current.style.display = "none";
-          setModal(modal);
+          setModal(true);
         }
     }
 
