@@ -13,7 +13,7 @@
 
 
 .histTxt{
-  display: block;
+  display: none;
   position: relative;
   width: 100%;
   max-width: 340px;
@@ -29,33 +29,33 @@
   display: block;
   content: "";
   width: 100%;
+  max-width: 340px;
   height: 201px;
   background-color: rgba(10%, 10%, 10%, 70%);
   position: absolute;
-  top: -79px;
+  top: -78px;
   z-index: -1;
 }
 
-#historia1 .histTxt{
+ #historia1 .histTxt{
   top: -11px;
 }
 
-#historia2 .histTxt{
-  top: -11px;
-}
 
 .historia:hover{
   filter: brightness(1.3);
 }
 
-@media (max-width: 380px) {
+@media (min-width: 379px) {
 
   #historia2 .histTxt{
-    top: 0px;
+    top: -11px;
   }
 }
 
-@media (min-width: 1260px) {
+
+
+@media (min-width: 1185px) {
 
   .historia {
     max-width: 32%;
@@ -63,30 +63,41 @@
   }
 
   .histTxt::before{
-    display: block;
-    content: "";
-    width: 172.5%;
+    width: 118.9%;
     height: 370px;
-    background-color: rgba(10%, 10%, 10%, 70%);
-    position: absolute;
-    top: -136px;
-    left: -123px;
-    z-index: -1;
+    top: -161px;
+    left: -32px;
+    max-width: 120%;
   }
 
   #historia1 .histTxt{
-    top: -16px;
+    top: -12px;
   }
 
   #historia2 .histTxt{
-    top: -16px;
+    top: 0px;
   }
 
-  #historia3 .histTxt{
-    top: -16px;
+}
+
+@media (min-width: 1279px) {
+  .histTxt::before{
+    width: 172.5%;
+    height: 379px;
+    top: -161px;
+    left: -123px;
+    max-width: 190%;
   }
 
-  #historia4 .histTxt{
-    top: -16px;
+  #historia1 .histTxt{
+    top: 0px;
+  }
+
+  #historia2 .histTxt{
+    top: 3px;
+  }
+
+  #historia5 .histTxt, #historia6 .histTxt, #historia7 .histTxt{
+    top: 20px;
   }
 }
