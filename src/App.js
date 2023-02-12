@@ -1,5 +1,6 @@
 import './App.css';
 import HomeSlide from './components/HomeSlide';
+import Slides from './components/Slides';
 import ActEmItem from './components/ActEmItem';
 import Header from './components/Header';
 import Historia from './components/Historia';
@@ -11,11 +12,12 @@ function App() {
   return (
     // Home page
     <div id="home" className="App">
+      {/* Swipe */}
+      <Slides />
       <Header 
         aMenuId = "aMenu"
       />
       <HomeSlide />
-
     {/* Activaciones Empresariales page */}
     <div className="actEmp">
       <SectionH1 
