@@ -12,12 +12,12 @@ function App() {
   return (
     // Home page
     <div id="home" className="App">
-      {/* Swipe */}
-      <Slides />
       <Header 
         aMenuId = "aMenu"
       />
-      <HomeSlide />
+      {/* Slides */}
+      <Slides />
+      {/* <HomeSlide /> */}
     {/* Activaciones Empresariales page */}
     <div className="actEmp">
       <SectionH1 

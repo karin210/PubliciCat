@@ -1,0 +1,16 @@
+.swiper{
+    width: 50%;
+    height: 200px;
+}
+
+.swiper-slide{
+    width: 100%;
+}
+
+.swiper-slide img {
+    width: 100%;
+}
+
+.swiper-slide img:nth-of-type(1){
+    
+}
