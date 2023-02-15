@@ -18,7 +18,7 @@ export default () => {
       // install Swiper modules
       modules={[Navigation, Pagination, Scrollbar, A11y, EffectFade, Autoplay]}
       loop={true}
-      autoplay={false}
+      autoplay={true}
       effect="fade"
       spaceBetween={50}
       slidesPerView={1}
