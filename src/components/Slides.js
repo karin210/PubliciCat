@@ -25,7 +25,7 @@ export default () => {
       navigation
       pagination={{ clickable: true }}
       onSwiper={(swiper) => console.log(swiper)}
-      onSlideChange={() => console.log('slide change')}
+      // onSlideChange={() => console.log('slide change')}
     >
       <SwiperSlide>
         <img alt='Activaciones Empresariales' src='https://corporacionimagen.com/wp-content/uploads/2019/09/05-09-Partido-Guatemala-vs-Anguila-265.jpg'/><span>Activaciones Empresariales</span>
