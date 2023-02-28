@@ -1,5 +1,4 @@
 import './App.css';
-import HomeSlide from './components/HomeSlide';
 import Slides from './components/Slides';
 import ActEmItem from './components/ActEmItem';
 import Header from './components/Header';
@@ -17,7 +16,6 @@ function App() {
       />
       {/* Slides */}
       <Slides />
-      {/* <HomeSlide /> */}
     {/* Activaciones Empresariales page */}
     <div className="actEmp">
       <SectionH1 

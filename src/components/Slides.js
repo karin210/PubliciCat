@@ -12,7 +12,8 @@ import 'swiper/css/scrollbar';
 import 'swiper/css/effect-fade';
 import 'swiper/css/autoplay';
 
-export default () => {
+function Slides(){
+
   return (
     <Swiper
       // install Swiper modules
@@ -40,3 +41,5 @@ export default () => {
     </Swiper>
   );
 };
+
+export default Slides;
