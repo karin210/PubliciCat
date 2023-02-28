@@ -27,7 +27,7 @@ const menuRef = useRef();
   return(
     <div className="header">
       <nav>
-        <a href="#home">PCat</a>
+        <a href="#home"><img id="logoHeader" alt="logo" src="https://cdn.dribbble.com/users/744913/screenshots/2884904/p_cat_monogram.png"/></a>
       </nav>
       <nav id="navGroup" ref={menuRef}>
         <span onClick={()=>showMenu()} id={props.aMenuId}>Menú</span>
